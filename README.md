@@ -21,7 +21,7 @@ View Windows 2012 R2 Desktop
 #### Step 3
 ***Open Powershell to Upgrade Expired License*** <br/>
 License has expired, so we will use a temporary license to enable features and allow us to test Active Directory and Certificate Services, type the following: <br/>
-***dism /online /set-edition:ServerStandard /productkey: <product key>***
+***dism /online /set-edition:ServerStandard /productkey: \<product key\>***
 
 ![Powershell]( https://github.com/lel99999/winAD_ri/blob/master/images/powershell.png "Powershell")
 
@@ -137,7 +137,7 @@ Wizard - 01
 
 Select Add a new forest
 
-Type in HDPDEV.COM for the Root domain name
+Type in HDPDEV.COM (or whatever name suits you) for the Root domain name
 
 Click Next
 
@@ -151,7 +151,7 @@ Wizard - 02
 
 Keep defaults
 
-Type in the DSRM Password:  we are using P@ssw0rd
+Type in the DSRM Password:  we are using P@ssw0rd ***(Which is generally BAD, but we'll just use it for this example)***
 
 Click Next
 
