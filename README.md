@@ -23,7 +23,7 @@ View Windows 2012 R2 Desktop
 License has expired, so we will use a temporary license to enable features and allow us to test Active Directory and Certificate Services, type the following: <br/>
 ***dism /online /set-edition:ServerStandard /productkey: <product key>***
 
-![Powershell]( https://github.com/lel99999/winAD_ri/blob/master/images/powershell.png "Powershell")***
+![Powershell]( https://github.com/lel99999/winAD_ri/blob/master/images/powershell.png "Powershell")
 
 #### Step 4
 ***Windows Status***
