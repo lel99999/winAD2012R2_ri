@@ -294,3 +294,55 @@ Click on User cannot change password and Password never expires
 Click Finish
 
 ![Add User - Finish](https://github.com/lel99999/winAD_ri/blob/master/images/ad_users-computers-adduser-03-finish.png "Add User - Finish")
+
+#### Step 32  ![Step 32](https://github.com/lel99999/winAD_ri/blob/master/images/arrow_down_25x25.png "Step 32")
+***Delegation of Control*** <br/>
+Delegation of control
+
+Allows hadoopadmin principal to create objects under the OU Hadoop
+
+Right mouse on Hadoop folder, select Delegate Control
+
+![Delegation of Control](https://github.com/lel99999/winAD_ri/blob/master/images/ad_delcontrol-01.png "Delegation of Control")
+
+
+#### Step 33  ![Step 33](https://github.com/lel99999/winAD_ri/blob/master/images/arrow_down_25x25.png "Step 33")
+***Delegation of Control - Wizard01*** <br/>
+Delegation Control Wizard - 01
+
+Click Next
+
+![Delegation of Control - Wizard01](https://github.com/lel99999/winAD_ri/blob/master/images/ad_delcontrol-wiz-01.png "Delegation of Control - Wizard01")
+
+#### Step 34  ![Step 34](https://github.com/lel99999/winAD_ri/blob/master/images/arrow_down_25x25.png "Step 34")
+***Delegation of Control - Wizard02*** <br/>
+Delegation Control Wizard – 02
+
+Under the Enter the object names to select -> type in hadoopadmin then click Check Names
+
+Click OK
+
+![Delegation of Control - Wizard02](https://github.com/lel99999/winAD_ri/blob/master/images/ad_delcontrol-wiz-02.png "Delegation of Control - Wizard02")
+
+#### Step 35  ![Step 35](https://github.com/lel99999/winAD_ri/blob/master/images/arrow_down_25x25.png "Step 35")
+***Delegation of Control - Wizard03*** <br/>
+Delegation Control Wizard – 03
+
+Tasks to Delegate
+
+Select Create, delete, and manage user accounts
+
+**This allows the hadoopadmin to have admin rights on the OU Hadoop
+
+Click Next
+
+![Delegation of Control - Wizard03](https://github.com/lel99999/winAD_ri/blob/master/images/ad_delcontrol-wiz-03.png "Delegation of Control - Wizard03")
+
+#### Step 36  ![Step 36](https://github.com/lel99999/winAD_ri/blob/master/images/arrow_down_25x25.png "Step 36")
+***Delegation of Control - Finish*** <br/>
+Delegation Control Wizard – 04
+
+Click Finish
+
+![Delegation of Control - Wizard04](https://github.com/lel99999/winAD_ri/blob/master/images/ad_delcontrol-wiz-04-finish.png "Delegation of Control - Wizard04")
+
