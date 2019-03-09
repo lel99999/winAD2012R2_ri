@@ -346,3 +346,36 @@ Click Finish
 
 ![Delegation of Control - Wizard04](https://github.com/lel99999/winAD_ri/blob/master/images/ad_delcontrol-wiz-04-finish.png "Delegation of Control - Wizard04")
 
+#### Step 37  ![Step 37](https://github.com/lel99999/winAD_ri/blob/master/images/arrow_down_25x25.png "Step 37")
+***Advanced Features*** <br/>
+Select HDPDEV.COM
+
+Go to View Menu -> Advanced Features 
+
+This view shows more advanced details and features of domain 
+
+![Advanced Features](https://github.com/lel99999/winAD_ri/blob/master/images/ad_advancedfeatures.png "Advanced Features")
+
+#### Step 38  ![Step 38](https://github.com/lel99999/winAD_ri/blob/master/images/arrow_down_25x25.png "Step 38")
+***Advanced Features - Child Objects*** <br/>
+Select domain HDPDEV.COM, 
+Right mouse, properties
+->	Security tab
+->	Select hadoopadmin
+Click Allow on:
+-> Create all child objects
+-> Delete all child objects
+
+Click Apply
+
+![Advanced Features - Child Objects](https://github.com/lel99999/winAD_ri/blob/master/images/ad_advancedfeatures-childobjectcreation.png "Advanced Features - Child Objects")
+
+#### Step 39  ![Step 39](https://github.com/lel99999/winAD_ri/blob/master/images/arrow_down_25x25.png "Step 39")
+***Advanced Features - Distinguished Name*** <br/>
+Click on Attribute Editor Tab
+
+Look at Distinguieshed Name:  OU=Hadoop, DC=HDPDEV, DC=COM
+
+Click OK
+
+![Advanced Features - Distinguished Name](https://github.com/lel99999/winAD_ri/blob/master/images/ad_advancedfeatures-distinguishedname.png "Advanced Features - Distinguished Name")
