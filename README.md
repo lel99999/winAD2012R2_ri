@@ -207,3 +207,90 @@ Keep Defaults
 Click Next
 
 ![Review Options](https://github.com/lel99999/winAD_ri/blob/master/images/ad_newforest_wizard-06.png "Review Options")
+
+#### Step 22  ![Step 22](https://github.com/lel99999/winAD_ri/blob/master/images/arrow_down_25x25.png "Step 22")
+***Prerequisites Check*** <br/>
+Active Directory Domain Service Configuration 
+Wizard – 07
+Prerequisites Check
+
+All checks should pass with a couple of warnings
+
+Click Install
+
+![Prerequisites Check](https://github.com/lel99999/winAD_ri/blob/master/images/ad_newforest_wizard-07.png "Prerequisites Check")
+
+#### Step 23  ![Step 23](https://github.com/lel99999/winAD_ri/blob/master/images/arrow_down_25x25.png "Step 23")
+***Complete Wizard*** <br/>
+Complete Wizard
+Server Manager Dashboard with AD DS
+
+![Complete Wizard](https://github.com/lel99999/winAD_ri/blob/master/images/ad_newforest_wizard-complete.png "Complete Wizard")
+
+#### Step 24  ![Step 24](https://github.com/lel99999/winAD_ri/blob/master/images/arrow_down_25x25.png "Step 24")
+***Users and Computers*** <br/>
+Click on Tools->Menu
+Select Active Directory Users and Computers
+
+![Users and Computers](https://github.com/lel99999/winAD_ri/blob/master/images/ad_users-computers.png "Users and Computers")
+
+#### Step 25  ![Step 25](https://github.com/lel99999/winAD_ri/blob/master/images/arrow_down_25x25.png "Step 25")
+***Active Directory Users and Computers*** <br/>
+Active Directory Users and Computers
+
+![Users and Computers](https://github.com/lel99999/winAD_ri/blob/master/images/ad_users-computers-01.png "Users and Computers")
+
+#### Step 26  ![Step 26](https://github.com/lel99999/winAD_ri/blob/master/images/arrow_down_25x25.png "Step 26")
+***Add Organizational Unit*** <br/>
+Add Organizational Unit 
+
+Right mouse HDPDEV.COM -> 
+New ->
+Organization Unit
+
+![Add Organizational Unit](https://github.com/lel99999/winAD_ri/blob/master/images/ad_users-computers-OU.png "Add Organizational Unit")
+
+#### Step 27  ![Step 27](https://github.com/lel99999/winAD_ri/blob/master/images/arrow_down_25x25.png "Step 27")
+***Add Organizational Unit - Name*** <br/>
+Add Organizational Unit
+
+Type Name: Hadoop \<or a name of your choice\>
+
+Click Ok
+
+![Add Organizational Unit - Name](https://github.com/lel99999/winAD_ri/blob/master/images/ad_users-computers-OU-01.png "Add Organizational Unit - Name")
+
+
+#### Step 28  ![Step 28](https://github.com/lel99999/winAD_ri/blob/master/images/arrow_down_25x25.png "Step 28")
+***Add User*** <br/>
+Add User
+
+On the folder Hadoop, Right mouse button and click New -> User
+
+![Add User](https://github.com/lel99999/winAD_ri/blob/master/images/ad_users-computers-adduser.png "Add User")
+
+#### Step 29  ![Step 29](https://github.com/lel99999/winAD_ri/blob/master/images/arrow_down_25x25.png "Step 29")
+***Add User - Specify*** <br/>
+Add User
+
+Type in hadoopadmin for First name, and make sure User logon name is hadoopadmin@HDPDEV.COM
+
+![Add User - Specify](https://github.com/lel99999/winAD_ri/blob/master/images/ad_users-computers-adduser-01.png "Add User - Specify")
+
+#### Step 30  ![Step 30](https://github.com/lel99999/winAD_ri/blob/master/images/arrow_down_25x25.png "Step 30")
+***Add User - Set Password*** <br/>
+Add User -Set Password
+
+Set/confirm password as:
+***P@ssw0rd***
+
+Click on User cannot change password and Password never expires
+(usually not a best practice, but this is for testing!)
+
+![Add User - Set Password](https://github.com/lel99999/winAD_ri/blob/master/images/ad_users-computers-adduser-02-setpwd.png "Add User - Set Password")
+
+#### Step 31  ![Step 31](https://github.com/lel99999/winAD_ri/blob/master/images/arrow_down_25x25.png "Step 31")
+***Add User - Finish*** <br/>
+Click Finish
+
+![Add User - Finish](https://github.com/lel99999/winAD_ri/blob/master/images/ad_users-computers-adduser-03-finish.png "Add User - Finish")
