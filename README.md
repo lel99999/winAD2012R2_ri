@@ -120,7 +120,7 @@ Click Close
 
 ![Active Directory Domain Services](https://github.com/lel99999/winAD_ri/blob/master/images/addRole_wizard_07.png "Active Directory Domain Services")
 
-#### Step 15 . ![Step 15](https://github.com/lel99999/winAD_ri/blob/master/images/arrow_down_25x25.png "Step 15")
+#### Step 15  ![Step 15](https://github.com/lel99999/winAD_ri/blob/master/images/arrow_down_25x25.png "Step 15")
 ***Post Deployment Config***
 
 Click on the yellow triangle with the exclamation point, and there are post-deployment configurations that needs to be done, namely to promote the server to a domain controller
@@ -159,7 +159,7 @@ Click Next
 
 
 
-#### Step 18 . ![Step 18](https://github.com/lel99999/winAD_ri/blob/master/images/arrow_down_25x25.png "Step 18")
+#### Step 18  ![Step 18](https://github.com/lel99999/winAD_ri/blob/master/images/arrow_down_25x25.png "Step 18")
 ***DNS Option*** <br/>
 Active Directory Domain Service Configuration 
 Wizard – 03
@@ -171,5 +171,39 @@ Click Next
 
 ![DNS Option](https://github.com/lel99999/winAD_ri/blob/master/images/ad_newforest_wizard-03.png "DNS Option")
 
+#### Step 19  ![Step 19](https://github.com/lel99999/winAD_ri/blob/master/images/arrow_down_25x25.png "Step 19")
+***Additional Options*** <br/>
+Active Directory Domain Service Configuration 
+Wizard – 04
+Additional Options
 
 
+The NetBIOS domain name is automatically take from the domain name:   HDPDEV
+
+Click Next
+
+![Additional Options](https://github.com/lel99999/winAD_ri/blob/master/images/ad_newforest_wizard-04.png "Additional Options")
+
+#### Step 20  ![Step 20](https://github.com/lel99999/winAD_ri/blob/master/images/arrow_down_25x25.png "Step 20")
+***Service Configuration*** <br/>
+Active Directory Domain Service Configuration 
+Wizard – 05
+Paths
+
+Keep Defaults
+
+Click Next
+
+![Service Configuration](https://github.com/lel99999/winAD_ri/blob/master/images/ad_newforest_wizard-05.png "Service Configuration")
+
+#### Step 21  ![Step 21](https://github.com/lel99999/winAD_ri/blob/master/images/arrow_down_25x25.png "Step 21")
+***Review Options*** <br/>
+Active Directory Domain Service Configuration 
+Wizard – 06
+Review Options
+
+Keep Defaults
+
+Click Next
+
+![Review Options](https://github.com/lel99999/winAD_ri/blob/master/images/ad_newforest_wizard-06.png "Review Options")
