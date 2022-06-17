@@ -1,4 +1,4 @@
-# winAD2012R2_ri
+# winAD2016_ri
 Windows Active Directory (AD) Reference Implementation
 
 ### Configuring Windows 2012 R2 for Active Directory and Certificate Server Services:
