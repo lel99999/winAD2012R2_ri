@@ -1,7 +1,7 @@
 # winAD2016_ri
 Windows Active Directory (AD) Reference Implementation
 
-### Configuring Windows 2012 R2 for Active Directory and Certificate Server Services:
+### Configuring Windows 2012 R2/2016 for Active Directory and Certificate Server Services:
 ***NOTES***:  We are going to build out a complete Windows Active Directory Enterprise Server, to service as our Kerberos System (KDC and LDAP Realm) 
 
 #### Step 1  ![Step 1](https://github.com/lel99999/winAD_ri/blob/master/images/arrow_down_25x25.png "Step 1")
